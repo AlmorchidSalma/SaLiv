@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:elevation="4dp"
+    android:backgroundTint="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/historyDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/historyHeartRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fréquence cardiaque: -- BPM"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:fontFamily="sans-serif-light" />
+
+        <TextView
+            android:id="@+id/historySpO2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SpO2: --%"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:fontFamily="sans-serif-light" />
+
+        <TextView
+            android:id="@+id/historyTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Température: -- °C"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:fontFamily="sans-serif-light" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

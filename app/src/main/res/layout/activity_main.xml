@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond02"
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+        <!-- Titre de l'application -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="50dp"
+
+            android:layout_weight="1"
+
+            android:fontFamily="sans-serif-condensed"
+            android:layout_gravity="center"
+            android:text="Saliv"
+            android:textColor="#FA3173"
+            android:textSize="70sp"
+            />
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:text=" Suivi de santé"
+            android:textColor="#306CAD"
+            android:textSize="45sp"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/back1"
+        android:orientation="vertical">
+        <!-- Affichage de la fréquence cardiaque -->
+        <TextView
+            android:id="@+id/heartRateText"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Fréquence cardiaque: -- BPM"
+            android:textColor="#FA3073"
+
+            android:textSize="20sp" />
+
+        <!-- Affichage du taux d'oxygène sanguin (SpO2) -->
+        <TextView
+            android:id="@+id/spo2Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:text="SpO2: --%"
+            android:textColor="#FA3073"
+            android:textSize="20sp"
+          />
+
+        <!-- Affichage de la température corporelle -->
+        <TextView
+            android:id="@+id/temperatureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Température: -- °C"
+            android:textColor="#FA3073"
+            android:textSize="20sp"
+            />
+
+        <!-- Bouton "Lire les données" (si nécessaire à l'avenir) -->
+
+        <Button
+            android:id="@+id/historyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
+            android:fontFamily="serif"
+            android:padding="15dp"
+            android:text="Voir l'historique"
+            android:textColor="#316DAC"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
